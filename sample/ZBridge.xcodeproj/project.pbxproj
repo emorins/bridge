@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4303CEB14D93C7A00870D49 /* libzb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4303CEA14D93C7A00870D49 /* libzb.a */; };
+		B518D89314D82424000E0BE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B518D89214D82424000E0BE2 /* UIKit.framework */; };
+		B518D89514D82424000E0BE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B518D89414D82424000E0BE2 /* Foundation.framework */; };
+		B518D89714D82424000E0BE2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B518D89614D82424000E0BE2 /* CoreGraphics.framework */; };
+		B518D89D14D82424000E0BE2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B518D89B14D82424000E0BE2 /* InfoPlist.strings */; };
+		B518D89F14D82424000E0BE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B518D89E14D82424000E0BE2 /* main.m */; };
+		B518D8A314D82424000E0BE2 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = B518D8A214D82424000E0BE2 /* AppDelegate.mm */; };
+		B518D8A614D82424000E0BE2 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B518D8A414D82424000E0BE2 /* MainStoryboard_iPhone.storyboard */; };
+		B518D8A914D82424000E0BE2 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B518D8A714D82424000E0BE2 /* MainStoryboard_iPad.storyboard */; };
+		B518D8AC14D82424000E0BE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B518D8AB14D82424000E0BE2 /* ViewController.m */; };
+		B54CD41514DD3A7D0023424E /* libzb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B54CD41414DD3A7D0023424E /* libzb.a */; };
+		B57AA50814D8785A0097020D /* libv8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B57AA50714D8785A0097020D /* libv8.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A4303CE614D93C2B00870D49 /* zb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zb.h; sourceTree = "<group>"; };
+		A4303CEA14D93C7A00870D49 /* libzb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzb.a; sourceTree = "<group>"; };
+		B518D88E14D82424000E0BE2 /* ZBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B518D89214D82424000E0BE2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B518D89414D82424000E0BE2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B518D89614D82424000E0BE2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B518D89A14D82424000E0BE2 /* ZBridge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZBridge-Info.plist"; sourceTree = "<group>"; };
+		B518D89C14D82424000E0BE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B518D89E14D82424000E0BE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B518D8A014D82424000E0BE2 /* ZBridge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZBridge-Prefix.pch"; sourceTree = "<group>"; };
+		B518D8A114D82424000E0BE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B518D8A214D82424000E0BE2 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		B518D8A514D82424000E0BE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B518D8A814D82424000E0BE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B518D8AA14D82424000E0BE2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B518D8AB14D82424000E0BE2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B54CD41414DD3A7D0023424E /* libzb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzb.a; sourceTree = "<group>"; };
+		B57AA50714D8785A0097020D /* libv8.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libv8.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B518D88B14D82424000E0BE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B518D89314D82424000E0BE2 /* UIKit.framework in Frameworks */,
+				B518D89514D82424000E0BE2 /* Foundation.framework in Frameworks */,
+				B518D89714D82424000E0BE2 /* CoreGraphics.framework in Frameworks */,
+				B57AA50814D8785A0097020D /* libv8.a in Frameworks */,
+				A4303CEB14D93C7A00870D49 /* libzb.a in Frameworks */,
+				B54CD41514DD3A7D0023424E /* libzb.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4303CDF14D93C2B00870D49 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A4303CE614D93C2B00870D49 /* zb.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		B518D88314D82424000E0BE2 = {
+			isa = PBXGroup;
+			children = (
+				A4303CDF14D93C2B00870D49 /* include */,
+				B518D89814D82424000E0BE2 /* ZBridge */,
+				B518D89114D82424000E0BE2 /* Frameworks */,
+				B518D88F14D82424000E0BE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B518D88F14D82424000E0BE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B518D88E14D82424000E0BE2 /* ZBridge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B518D89114D82424000E0BE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5F6DD7614D837FD00A9219F /* libs */,
+				B518D89214D82424000E0BE2 /* UIKit.framework */,
+				B518D89414D82424000E0BE2 /* Foundation.framework */,
+				B518D89614D82424000E0BE2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B518D89814D82424000E0BE2 /* ZBridge */ = {
+			isa = PBXGroup;
+			children = (
+				B518D8A114D82424000E0BE2 /* AppDelegate.h */,
+				B518D8A214D82424000E0BE2 /* AppDelegate.mm */,
+				B518D8A414D82424000E0BE2 /* MainStoryboard_iPhone.storyboard */,
+				B518D8A714D82424000E0BE2 /* MainStoryboard_iPad.storyboard */,
+				B518D8AA14D82424000E0BE2 /* ViewController.h */,
+				B518D8AB14D82424000E0BE2 /* ViewController.m */,
+				B518D89914D82424000E0BE2 /* Supporting Files */,
+			);
+			path = ZBridge;
+			sourceTree = "<group>";
+		};
+		B518D89914D82424000E0BE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B518D89A14D82424000E0BE2 /* ZBridge-Info.plist */,
+				B518D89B14D82424000E0BE2 /* InfoPlist.strings */,
+				B518D89E14D82424000E0BE2 /* main.m */,
+				B518D8A014D82424000E0BE2 /* ZBridge-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5F6DD7614D837FD00A9219F /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				A4303CEA14D93C7A00870D49 /* libzb.a */,
+				B54CD41414DD3A7D0023424E /* libzb.a */,
+				B57AA50714D8785A0097020D /* libv8.a */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B518D88D14D82424000E0BE2 /* ZBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B518D8AF14D82424000E0BE2 /* Build configuration list for PBXNativeTarget "ZBridge" */;
+			buildPhases = (
+				B518D88A14D82424000E0BE2 /* Sources */,
+				B518D88B14D82424000E0BE2 /* Frameworks */,
+				B518D88C14D82424000E0BE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZBridge;
+			productName = ZBridge;
+			productReference = B518D88E14D82424000E0BE2 /* ZBridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B518D88514D82424000E0BE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B518D88814D82424000E0BE2 /* Build configuration list for PBXProject "ZBridge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B518D88314D82424000E0BE2;
+			productRefGroup = B518D88F14D82424000E0BE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B518D88D14D82424000E0BE2 /* ZBridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B518D88C14D82424000E0BE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B518D89D14D82424000E0BE2 /* InfoPlist.strings in Resources */,
+				B518D8A614D82424000E0BE2 /* MainStoryboard_iPhone.storyboard in Resources */,
+				B518D8A914D82424000E0BE2 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B518D88A14D82424000E0BE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B518D89F14D82424000E0BE2 /* main.m in Sources */,
+				B518D8A314D82424000E0BE2 /* AppDelegate.mm in Sources */,
+				B518D8AC14D82424000E0BE2 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B518D89B14D82424000E0BE2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B518D89C14D82424000E0BE2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B518D8A414D82424000E0BE2 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B518D8A514D82424000E0BE2 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B518D8A714D82424000E0BE2 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B518D8A814D82424000E0BE2 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B518D8AD14D82424000E0BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = libs;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B518D8AE14D82424000E0BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = libs;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B518D8B014D82424000E0BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZBridge/ZBridge-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"/Users/emori/Desktop/zynga-repos/zb/zb",
+					/Users/emori/Desktop/ZBridge/ZBridge,
+				);
+				INFOPLIST_FILE = "ZBridge/ZBridge-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/zb-brrzsjcfdsvbobgzapghhbkemqxy/Build/Products/Debug-iphonesimulator\"",
+					"\"$(SRCROOT)/libs\"",
+					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/zb-brrzsjcfdsvbobgzapghhbkemqxy/Build/Products/Debug-iphoneos\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/Users/emori/Desktop/zynga-repos/zb/zb /Users/emori/Desktop/ZBridge/ZBridge";
+				VALID_ARCHS = "i386 armv6 armv7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B518D8B114D82424000E0BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZBridge/ZBridge-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"/Users/emori/Desktop/zynga-repos/zb/zb",
+					/Users/emori/Desktop/ZBridge/ZBridge,
+				);
+				INFOPLIST_FILE = "ZBridge/ZBridge-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/zb-brrzsjcfdsvbobgzapghhbkemqxy/Build/Products/Debug-iphonesimulator\"",
+					"\"$(SRCROOT)/libs\"",
+					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/zb-brrzsjcfdsvbobgzapghhbkemqxy/Build/Products/Debug-iphoneos\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/Users/emori/Desktop/zynga-repos/zb/zb /Users/emori/Desktop/ZBridge/ZBridge";
+				VALID_ARCHS = "i386 armv6 armv7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B518D88814D82424000E0BE2 /* Build configuration list for PBXProject "ZBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B518D8AD14D82424000E0BE2 /* Debug */,
+				B518D8AE14D82424000E0BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B518D8AF14D82424000E0BE2 /* Build configuration list for PBXNativeTarget "ZBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B518D8B014D82424000E0BE2 /* Debug */,
+				B518D8B114D82424000E0BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B518D88514D82424000E0BE2 /* Project object */;
+}
